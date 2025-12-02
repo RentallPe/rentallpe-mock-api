@@ -1,0 +1,1177 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Mario Vargas",
+      "email": "mario@example.com",
+      "password": "1234",
+      "phone": "999999999",
+      "createdAt": "2025-10-01T06:00:00Z",
+      "photo": "https://randomuser.me/api/portraits/men/75.jpg",
+      "role": "customer"
+    },
+    {
+      "id": "1761604976429",
+      "fullName": "Humbertoo",
+      "email": "humberto@example.com",
+      "password": "1234",
+      "phone": "987654321",
+      "createdAt": "2025-10-27T22:42:56.429Z",
+      "photo": "https://randomuser.me/api/portraits/men/75.jpg",
+      "paymentMethods": [
+        {
+          "id": 1764538081185,
+          "type": "Visa",
+          "number": "1232 3232 3232 1323",
+          "expiry": "21/33",
+          "cvv": "123"
+        }
+      ],
+      "role": "customer",
+      "providerId": null
+    },
+    {
+      "id": "1761608000000",
+      "fullName": "Construcciones S.A.",
+      "email": "construcciones@rentalpe.com",
+      "password": "1234",
+      "phone": "987654321",
+      "createdAt": "2025-10-28T15:30:00Z",
+      "role": "provider",
+      "providerId": 1
+    },
+    {
+      "id": "1761700000000",
+      "fullName": "Lucía Fernández",
+      "email": "lucia@example.com",
+      "password": "abcd",
+      "phone": "912345678",
+      "createdAt": "2025-11-01T10:00:00Z",
+      "role": "customer"
+    },
+    {
+      "id": "1764557120515",
+      "fullName": "Construccciones S.A",
+      "email": "Contrsuccione@prubea.com",
+      "password": "1234",
+      "phone": "33611615",
+      "createdAt": "2025-12-01T02:45:20.515Z",
+      "photo": "https://randomuser.me/api/portraits/men/75.jpg",
+      "paymentMethods": [],
+      "role": "provider",
+      "providerId": 1764557120505
+    },
+    {
+      "id": "1764576478809",
+      "fullName": "Lorenzo",
+      "email": "lorenzo@prueba.com",
+      "password": "1234",
+      "phone": "",
+      "createdAt": "2025-12-01T08:07:58.809Z",
+      "photo": "",
+      "paymentMethods": [
+        {
+          "id": 1764576644184,
+          "type": "Visa",
+          "number": "1232 1321 3124 2142",
+          "expiry": "12/31",
+          "cvv": "123"
+        }
+      ],
+      "role": "customer",
+      "providerId": null
+    }
+  ],
+  "providers": [
+    {
+      "id": "1",
+      "name": "Construcciones S.A.",
+      "contact": "contact@construcciones.com"
+    },
+    {
+      "id": "2",
+      "name": "SmartHome Perú",
+      "contact": "ventas@smarthome.pe"
+    },
+    {
+      "id": "1764557120505",
+      "name": "Construciones S.A",
+      "contact": "Contrsuccione@prubea.com"
+    }
+  ],
+  "properties": [
+    {
+      "id": "1760165416141",
+      "ownerId": "1761604976429",
+      "address": "Av. Siempre Viva 123",
+      "ubigeo": "",
+      "province": "Lima",
+      "region": "Lima",
+      "areaM2": 120,
+      "yearsOld": 5,
+      "status": "available",
+      "createdAt": "2025-10-11T06:50:16.141Z",
+      "image": "https://picsum.photos/300/200?random=99",
+      "name": "Casa Principal",
+      "handoverDate": null,
+      "progress": 0,
+      "alerts": [],
+      "locks": [],
+      "owner": null,
+      "combos": [
+        {
+          "id": 3,
+          "providerId": 2,
+          "name": "Eco Living Combo",
+          "description": "Solar panels, smart thermostat, water-saving faucets.",
+          "price": 2500,
+          "installDays": 10,
+          "image": "https://picsum.photos/400/250?random=3",
+          "planType": "basic",
+          "devices": [
+            {
+              "type": "Solar Panel"
+            },
+            {
+              "type": "Smart Thermostat"
+            },
+            {
+              "type": "Water-saving Faucet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1761705416141",
+      "ownerId": "1761604976429",
+      "address": "Calle Las Flores 456",
+      "ubigeo": "",
+      "province": "Lima",
+      "region": "Lima",
+      "areaM2": 80,
+      "yearsOld": 2,
+      "status": "available",
+      "createdAt": "2025-11-15T09:00:00.000Z",
+      "image": "https://picsum.photos/300/200?random=101",
+      "name": "Departamento Miraflores",
+      "handoverDate": null,
+      "progress": 0,
+      "alerts": [],
+      "locks": [],
+      "owner": null,
+      "combos": [
+        {
+          "id": 2,
+          "providerId": 1,
+          "name": "Security Essentials",
+          "description": "Smart locks, motion sensors, and cameras.",
+          "price": 950,
+          "installDays": 3,
+          "image": "https://picsum.photos/400/250?random=2",
+          "planType": "premium",
+          "devices": [
+            {
+              "type": "Smart Lock"
+            },
+            {
+              "type": "Motion Sensor"
+            },
+            {
+              "type": "Camera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1764546889952",
+      "ownerId": "1761604976429",
+      "address": "Av Santa Catalina 288",
+      "ubigeo": "asdas",
+      "province": "asdas",
+      "region": "Lima",
+      "areaM2": 432,
+      "yearsOld": 2343,
+      "status": "available",
+      "createdAt": "2025-11-30T23:54:49.952Z",
+      "image": "https://picsum.photos/300/200?random=99",
+      "name": "New Property4",
+      "handoverDate": null,
+      "progress": 0,
+      "alerts": [],
+      "locks": [],
+      "owner": null,
+      "combos": [
+        {
+          "id": 2,
+          "providerId": 1,
+          "name": "Security Essentials",
+          "description": "Smart locks, motion sensors, and cameras.",
+          "price": 950,
+          "installDays": 3,
+          "image": "https://picsum.photos/400/250?random=2",
+          "planType": "premium",
+          "devices": [
+            {
+              "type": "Smart Lock"
+            },
+            {
+              "type": "Motion Sensor"
+            },
+            {
+              "type": "Camera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1764576601545",
+      "ownerId": "1764576478809",
+      "address": "Av siemprenovivoa123",
+      "ubigeo": "asndi",
+      "province": "Lima",
+      "region": "Lima",
+      "areaM2": 213,
+      "yearsOld": 123,
+      "status": "available",
+      "createdAt": "2025-12-01T08:10:01.545Z",
+      "image": "https://picsum.photos/300/200?random=99",
+      "name": "Propiedad3",
+      "handoverDate": null,
+      "progress": 0,
+      "alerts": [],
+      "locks": [],
+      "owner": null,
+      "combos": [
+        {
+          "id": 2,
+          "providerId": 1,
+          "name": "Security Essentials",
+          "description": "Smart locks, motion sensors, and cameras.",
+          "price": 950,
+          "installDays": 3,
+          "image": "https://picsum.photos/400/250?random=2",
+          "planType": "premium",
+          "devices": [
+            {
+              "type": "Smart Lock"
+            },
+            {
+              "type": "Motion Sensor"
+            },
+            {
+              "type": "Camera"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1764625603675",
+      "ownerId": "1761604976429",
+      "address": "Prubeasvivas123",
+      "ubigeo": "Anderson",
+      "province": "Lima",
+      "region": "Lima",
+      "areaM2": 123,
+      "yearsOld": 5,
+      "status": "available",
+      "createdAt": "2025-12-01T21:46:43.675Z",
+      "image": "https://picsum.photos/300/200?random=99",
+      "name": "TesteodePrubeas",
+      "handoverDate": null,
+      "progress": 0,
+      "alerts": [],
+      "locks": [],
+      "owner": null,
+      "combos": [
+        {
+          "id": 1,
+          "providerId": 1,
+          "name": "Smart Kitchen Pack",
+          "description": "Includes smart oven, water filter, and lighting.",
+          "price": 1200,
+          "installDays": 5,
+          "image": "https://picsum.photos/400/250?random=1",
+          "planType": "premium",
+          "devices": [
+            {
+              "type": "Smart Oven"
+            },
+            {
+              "type": "Water Filter"
+            },
+            {
+              "type": "Smart Lighting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1764655720325",
+      "ownerId": "1761604976429",
+      "address": "Sean124.si",
+      "ubigeo": "asindoa",
+      "province": "lima",
+      "region": "lima",
+      "areaM2": 23,
+      "yearsOld": 123,
+      "status": "available",
+      "createdAt": "2025-12-02T06:08:40.325Z",
+      "image": "https://picsum.photos/300/200?random=99",
+      "name": "Testeo3Sean",
+      "handoverDate": null,
+      "progress": 0,
+      "alerts": [],
+      "locks": [],
+      "owner": null,
+      "combos": [
+        {
+          "id": 2,
+          "providerId": 1,
+          "name": "Security Essentials",
+          "description": "Smart locks, motion sensors, and cameras.",
+          "price": 950,
+          "installDays": 3,
+          "image": "https://picsum.photos/400/250?random=2",
+          "planType": "premium",
+          "devices": [
+            {
+              "type": "Smart Lock"
+            },
+            {
+              "type": "Motion Sensor"
+            },
+            {
+              "type": "Camera"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "combos": [
+    {
+      "id": "1",
+      "providerId": "1",
+      "name": "Smart Kitchen Pack",
+      "description": "Includes smart oven, water filter, and lighting.",
+      "price": 1200,
+      "installDays": 5,
+      "planType": "premium",
+      "devices": [
+        {
+          "type": "Smart Oven"
+        },
+        {
+          "type": "Water Filter"
+        },
+        {
+          "type": "Smart Lighting"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "providerId": "1",
+      "name": "Security Essentials",
+      "description": "Smart locks, motion sensors, and cameras.",
+      "price": 950,
+      "installDays": 3,
+      "planType": "premium",
+      "devices": [
+        {
+          "type": "Smart Lock"
+        },
+        {
+          "type": "Motion Sensor"
+        },
+        {
+          "type": "Camera"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "providerId": "2",
+      "name": "Eco Living Combo",
+      "description": "Solar panels, smart thermostat, water-saving faucets.",
+      "price": 2500,
+      "installDays": 10,
+      "planType": "basic",
+      "devices": [
+        {
+          "type": "Solar Panel"
+        },
+        {
+          "type": "Smart Thermostat"
+        },
+        {
+          "type": "Water-saving Faucet"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "providerId": "2",
+      "name": "Luxury Smart Pack",
+      "description": "Smart fridge, AI assistant, automated curtains.",
+      "price": 5000,
+      "installDays": 15,
+      "planType": "enterprise",
+      "devices": [
+        {
+          "type": "Smart Fridge"
+        },
+        {
+          "type": "AI Assistant"
+        },
+        {
+          "type": "Automated Curtains"
+        }
+      ]
+    },
+    {
+      "id": "1764569746938",
+      "providerId": 1764557120505,
+      "name": "Combo3",
+      "description": "sidnmioasndioasniodn",
+      "price": 123,
+      "installDays": 2,
+      "image": "https://picsum.photos/400/250?random=99",
+      "planType": "premium",
+      "devices": [
+        "Camera"
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "1764554427194",
+      "comboId": 2,
+      "providerId": 1,
+      "customerId": 1761604976429,
+      "customerName": "Humbertoo",
+      "propertyId": 1761705416141,
+      "propertyName": "Departamento Miraflores",
+      "amount": 950,
+      "date": "2025-12-01T02:00:27.194Z",
+      "status": "pending"
+    },
+    {
+      "id": "1764555060238",
+      "comboId": 3,
+      "providerId": 2,
+      "customerId": 1761604976429,
+      "customerName": "Humbertoo",
+      "propertyId": 1764546889952,
+      "propertyName": "New Property4",
+      "amount": 2500,
+      "date": "2025-12-01T02:11:00.238Z",
+      "status": "pending"
+    },
+    {
+      "id": "1764556158580",
+      "amount": 950,
+      "date": "2025-12-01T02:29:18.580Z",
+      "status": "paid",
+      "createdAt": null
+    },
+    {
+      "id": "1764558934039",
+      "amount": 1200,
+      "date": "2025-12-01T03:15:34.039Z",
+      "status": "paid",
+      "createdAt": null
+    },
+    {
+      "id": "1764577743903",
+      "comboId": 1764569746938,
+      "providerId": 1764557120505,
+      "customerId": 1764576478809,
+      "customerName": "Lorenzo",
+      "propertyId": 1764576601545,
+      "propertyName": "Propiedad3",
+      "amount": 123,
+      "date": "2025-12-01T08:29:03.903Z",
+      "status": "pending"
+    },
+    {
+      "id": "1764577934590",
+      "comboId": "2",
+      "propertyId": "1764576601545",
+      "customerId": "1764576478809",
+      "providerId": "1",
+      "amount": 950,
+      "status": "paid",
+      "date": "2025-12-01T08:32:14.590Z",
+      "propertyName": "Propiedad3",
+      "customerName": "Lorenzo"
+    },
+    {
+      "id": "1764620975450",
+      "comboId": "2",
+      "propertyId": "1764546889952",
+      "customerId": "1761604976429",
+      "providerId": "1",
+      "amount": 950,
+      "status": "paid",
+      "date": "2025-12-01T20:29:35.450Z",
+      "propertyName": "New Property4",
+      "customerName": "Humbertoo"
+    },
+    {
+      "id": "1764625444401",
+      "comboId": "3",
+      "propertyId": "1760165416141",
+      "customerId": "1761604976429",
+      "providerId": "2",
+      "amount": 2500,
+      "status": "paid",
+      "date": "2025-12-01T21:44:04.401Z",
+      "propertyName": "Casa Principal",
+      "customerName": "Humbertoo"
+    },
+    {
+      "id": "1764625638001",
+      "comboId": "7",
+      "propertyId": "1764625603675",
+      "customerId": "1761604976429",
+      "providerId": "2",
+      "amount": 5000,
+      "status": "paid",
+      "date": "2025-12-01T21:47:18.001Z",
+      "propertyName": "TesteodePrubeas",
+      "customerName": "Humbertoo"
+    },
+    {
+      "id": "1764627138209",
+      "comboId": "1",
+      "propertyId": "1764625603675",
+      "customerId": "1761604976429",
+      "providerId": "1",
+      "amount": 1200,
+      "status": "confirmed",
+      "date": "2025-12-01T22:12:18.209Z",
+      "propertyName": "TesteodePrubeas",
+      "customerName": "Humbertoo"
+    },
+    {
+      "id": "1764628911249",
+      "comboId": null,
+      "propertyId": null,
+      "customerId": "1761604976429",
+      "providerId": null,
+      "amount": 100,
+      "status": "paid",
+      "date": "2025-12-01T22:41:51.249Z",
+      "propertyName": "Suscripción Premium",
+      "customerName": "Cliente"
+    },
+    {
+      "id": "1764628919859",
+      "comboId": null,
+      "propertyId": null,
+      "customerId": "1761604976429",
+      "providerId": null,
+      "amount": 200,
+      "status": "paid",
+      "date": "2025-12-01T22:41:59.859Z",
+      "propertyName": "Suscripción Enterprise",
+      "customerName": "Cliente"
+    },
+    {
+      "id": "1764629369572",
+      "comboId": null,
+      "propertyId": null,
+      "customerId": "1761604976429",
+      "providerId": null,
+      "amount": 100,
+      "status": "paid",
+      "date": "2025-12-01T22:49:29.572Z",
+      "propertyName": "Suscripción Premium",
+      "customerName": "Cliente"
+    },
+    {
+      "id": "1764631540515",
+      "customerId": "1761604976429",
+      "customerName": "Cliente",
+      "propertyName": "Suscripción Basic",
+      "amount": 50,
+      "date": "2025-12-01T23:25:40.515Z",
+      "status": "pending",
+      "type": "subscription"
+    },
+    {
+      "id": "1764636387142",
+      "customerId": "1761608000000",
+      "customerName": "Cliente",
+      "propertyName": "Suscripción Basic",
+      "amount": 50,
+      "date": "2025-12-02T00:46:27.142Z",
+      "status": "pending",
+      "type": "subscription"
+    },
+    {
+      "id": "1764655693043",
+      "comboId": null,
+      "propertyId": null,
+      "customerId": "1761604976429",
+      "providerId": null,
+      "amount": 200,
+      "status": "paid",
+      "date": "2025-12-02T06:08:13.043Z",
+      "propertyName": "Suscripción Enterprise",
+      "customerName": "Cliente"
+    },
+    {
+      "id": "1764655750796",
+      "comboId": "2",
+      "propertyId": "1764655720325",
+      "customerId": "1761604976429",
+      "providerId": "1",
+      "amount": 950,
+      "status": "confirmed",
+      "date": "2025-12-02T06:09:10.796Z",
+      "propertyName": "Testeo3Sean",
+      "customerName": "Humbertoo"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "1761604976429",
+      "userId": "1761604976429",
+      "plan": "premium",
+      "startDate": "2025-10-27T22:42:56.429Z",
+      "endDate": null,
+      "status": "active"
+    },
+    {
+      "id": "1761700000000",
+      "userId": "1761700000000",
+      "plan": "basic",
+      "startDate": "2025-11-01T10:00:00Z",
+      "endDate": null,
+      "status": "active"
+    },
+    {
+      "id": "1",
+      "userId": "1",
+      "plan": "premium",
+      "startDate": "2025-10-01T06:00:00Z",
+      "endDate": null,
+      "status": "active"
+    },
+    {
+      "id": "1764551352568",
+      "customerId": "1761604976429",
+      "plan": "enterprise",
+      "price": 200,
+      "status": "canceled",
+      "startDate": "2025-12-01T01:51:23.914Z",
+      "endDate": "2025-12-31T01:51:23.914Z"
+    },
+    {
+      "id": "1764553901602",
+      "customerId": "1761604976429",
+      "plan": "premium",
+      "price": 100,
+      "status": "canceled",
+      "startDate": "2025-12-01T01:51:41.602Z",
+      "endDate": "2025-12-31T01:51:41.603Z"
+    },
+    {
+      "id": "1764558900084",
+      "customerId": "1761604976429",
+      "plan": "enterprise",
+      "price": 200,
+      "status": "canceled",
+      "startDate": "2025-12-01T03:15:00.084Z",
+      "endDate": "2025-12-31T03:15:00.084Z"
+    },
+    {
+      "id": "1764558927501",
+      "customerId": "1761604976429",
+      "plan": "premium",
+      "price": 100,
+      "status": "canceled",
+      "startDate": "2025-12-01T03:15:27.501Z",
+      "endDate": "2025-12-31T03:15:27.501Z"
+    },
+    {
+      "id": "1764577543142",
+      "customerId": "1764576478809",
+      "plan": "premium",
+      "price": 100,
+      "status": "active",
+      "startDate": "2025-12-01T08:25:43.142Z",
+      "endDate": "2025-12-31T08:25:43.142Z"
+    },
+    {
+      "id": "1764628911239",
+      "customerId": "1761604976429",
+      "plan": "premium",
+      "price": 100,
+      "status": "canceled",
+      "startDate": "2025-12-01T22:41:51.239Z"
+    },
+    {
+      "id": "1764628919847",
+      "customerId": "1761604976429",
+      "plan": "enterprise",
+      "price": 200,
+      "status": "canceled",
+      "startDate": "2025-12-01T22:41:59.847Z"
+    },
+    {
+      "id": "1764629369563",
+      "customerId": "1761604976429",
+      "plan": "premium",
+      "price": 100,
+      "status": "canceled",
+      "startDate": "2025-12-01T22:49:29.563Z"
+    },
+    {
+      "id": "1764631540504",
+      "customerId": "1761604976429",
+      "plan": "enterprise",
+      "price": 200,
+      "status": "active",
+      "startDate": "2025-12-02T06:08:13.026Z"
+    },
+    {
+      "id": "1764636387125",
+      "customerId": "1761608000000",
+      "plan": "basic",
+      "price": 50,
+      "status": "active",
+      "startDate": "2025-12-02T00:46:27.125Z"
+    }
+  ],
+  "owners": [
+    {
+      "id": "1",
+      "ownerTypeId": "T1",
+      "businessName": "Juan Pérez SAC",
+      "documentType": "RUC",
+      "documentNumber": "12345678901",
+      "phone": "987654321",
+      "email": "juanperez@example.com",
+      "address": "123 Fake Street",
+      "createdAt": "2025-10-01T09:00:00Z"
+    }
+  ],
+  "ownerTypes": [
+    {
+      "id": "T1",
+      "typeName": "Legal Entity",
+      "createdAt": "2025-10-01T07:00:00Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "1760166122111",
+      "projectId": "1",
+      "description": "Sensor defectuoso",
+      "status": "pending",
+      "createdAt": "2025-10-11T07:02:02.111Z",
+      "updatedAt": null
+    },
+    {
+      "id": "1764537400932",
+      "projectId": 1,
+      "description": "asdasdas",
+      "status": "pending",
+      "createdAt": "2025-11-30T21:16:40.932Z",
+      "updatedAt": null
+    },
+    {
+      "id": "1764550625633",
+      "projectId": 1,
+      "description": "asdasdas asdasdas",
+      "status": "pending",
+      "createdAt": "2025-12-01T00:57:05.633Z",
+      "updatedAt": null
+    },
+    {
+      "id": "1764570341177",
+      "projectId": 1,
+      "description": "asda2",
+      "status": "pending",
+      "createdAt": "2025-12-01T06:25:41.177Z",
+      "updatedAt": null
+    },
+    {
+      "id": 1764664648350,
+      "projectId": 1,
+      "description": "tengo problemas con los servicios",
+      "status": "pending",
+      "createdAt": "2025-12-02T08:37:28.350Z",
+      "updatedAt": null
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_001",
+      "projectId": "1",
+      "title": "Contrato de instalación",
+      "type": "pdf",
+      "url": "https://example.com/docs/contrato_instalacion.pdf",
+      "createdAt": "2025-10-01T09:00:00Z"
+    },
+    {
+      "id": "doc_002",
+      "projectId": "2",
+      "title": "Manual de usuario IoT",
+      "type": "docx",
+      "url": "https://example.com/docs/manual_iot.docx",
+      "createdAt": "2025-11-15T10:00:00Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "paymentId": "1762600000000",
+      "number": "INV-001",
+      "issueDate": "2025-10-01",
+      "createdAt": "2025-10-01T11:00:00Z",
+      "status": "unpaid"
+    },
+    {
+      "id": "2",
+      "paymentId": "1762570618041",
+      "number": "INV-002",
+      "issueDate": "2025-11-08",
+      "createdAt": "2025-11-08T03:00:00Z",
+      "status": "paid"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "name": "Install wiring",
+      "description": "Run network cables throughout the house",
+      "status": "pending",
+      "createdAt": "2025-10-01T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "projectId": "1",
+      "name": "Configure smart locks",
+      "description": "Setup and test smart lock system",
+      "status": "in-progress",
+      "createdAt": "2025-10-03T14:00:00Z"
+    },
+    {
+      "id": "3",
+      "projectId": "2",
+      "name": "Install solar panels",
+      "description": "Mount and connect solar panels on rooftop",
+      "status": "completed",
+      "createdAt": "2025-11-20T08:00:00Z"
+    }
+  ],
+  "remodelPlans": [],
+  "budgets": [],
+  "iotDevices": [
+    {
+      "id": "1764625656394.2302",
+      "projectId": "1764625656387",
+      "type": "Smart Fridge",
+      "status": "active",
+      "installedAt": "2025-12-01T21:47:36.394Z"
+    },
+    {
+      "id": "1764625656402.226",
+      "projectId": "1764625656387",
+      "type": "AI Assistant",
+      "status": "active",
+      "installedAt": "2025-12-01T21:47:36.402Z"
+    },
+    {
+      "id": "1764625656407.7634",
+      "projectId": "1764625656387",
+      "type": "Automated Curtains",
+      "status": "active",
+      "installedAt": "2025-12-01T21:47:36.407Z"
+    },
+    {
+      "id": "1764655795325.0322",
+      "projectId": "1764655795309",
+      "type": "Smart Lock",
+      "status": "active",
+      "installedAt": "2025-12-02T06:09:55.325Z"
+    },
+    {
+      "id": "1764655795331.6504",
+      "projectId": "1764655795309",
+      "type": "Motion Sensor",
+      "status": "active",
+      "installedAt": "2025-12-02T06:09:55.331Z"
+    },
+    {
+      "id": "1764655795336.2908",
+      "projectId": "1764655795309",
+      "type": "Camera",
+      "status": "active",
+      "installedAt": "2025-12-02T06:09:55.336Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": 1,
+      "projectId": "1764551357746",
+      "message": "Nuevo combo instalado en tu propiedad",
+      "createdAt": "2025-10-01T07:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "projectId": 1,
+      "message": "Incidente reportado: Sensor de humo activado",
+      "createdAt": "2025-11-20T10:05:00Z"
+    },
+    {
+      "id": "3",
+      "userId": "1761700000000",
+      "projectId": 2,
+      "message": "Instalación de panel solar programada",
+      "createdAt": "2025-11-25T09:00:00Z"
+    },
+    {
+      "id": "4da3",
+      "title": "Pago recibido",
+      "message": "El cliente undefined ha pagado el combo undefined",
+      "paymentId": "1764551378204",
+      "status": "unread",
+      "date": "2025-12-01T01:59:09.902Z"
+    },
+    {
+      "id": "c766",
+      "title": "Pago recibido",
+      "message": "El cliente undefined ha pagado el combo undefined",
+      "paymentId": "1764551378204",
+      "status": "unread",
+      "date": "2025-12-01T02:00:03.944Z"
+    },
+    {
+      "id": "601a",
+      "title": "Pago recibido",
+      "message": "El cliente undefined ha pagado el combo undefined",
+      "paymentId": "1764556158580",
+      "status": "unread",
+      "date": "2025-12-01T02:29:38.067Z"
+    },
+    {
+      "id": "3800",
+      "title": "Pago recibido",
+      "message": "El cliente undefined ha pagado el combo undefined",
+      "paymentId": "1764558934039",
+      "status": "unread",
+      "date": "2025-12-01T03:16:26.898Z"
+    },
+    {
+      "id": "a725",
+      "providerId": "1",
+      "title": "Pago recibido",
+      "message": "El cliente Lorenzo ha pagado el combo Propiedad3",
+      "paymentId": "1764577934590",
+      "status": "unread",
+      "date": "2025-12-01T08:54:39.815Z"
+    },
+    {
+      "id": "5782",
+      "providerId": "1",
+      "title": "Pago recibido",
+      "message": "El cliente Humbertoo ha pagado el combo New Property4",
+      "paymentId": "1764620975450",
+      "status": "unread",
+      "date": "2025-12-01T21:45:49.216Z"
+    },
+    {
+      "id": "2d0e",
+      "providerId": "2",
+      "title": "Pago recibido",
+      "message": "El cliente Humbertoo ha pagado el combo TesteodePrubeas",
+      "paymentId": "1764625638001",
+      "status": "unread",
+      "date": "2025-12-01T21:47:36.425Z"
+    },
+    {
+      "id": "29c0",
+      "providerId": "1",
+      "title": "Confirmar instalación",
+      "message": "El cliente Humbertoo ha pagado el combo TesteodePrubeas. Confirma la instalación para crear el proyecto.",
+      "paymentId": "1764627138209",
+      "status": "unread",
+      "date": "2025-12-01T22:12:35.384Z"
+    },
+    {
+      "id": "fa42",
+      "providerId": null,
+      "title": "Confirmar instalación",
+      "message": "El cliente Cliente ha pagado el combo Suscripción Premium. Confirma la instalación para crear el proyecto.",
+      "paymentId": "1764629369572",
+      "status": "unread",
+      "date": "2025-12-01T23:02:22.158Z"
+    },
+    {
+      "id": "acbb",
+      "userId": "1761604976429",
+      "message": "Tu pago del combo Suscripción Premium fue registrado. Espera confirmación del proveedor.",
+      "createdAt": "2025-12-01T23:02:22.166Z",
+      "status": "unread"
+    },
+    {
+      "id": "2efc",
+      "providerId": null,
+      "title": "Confirmar instalación",
+      "message": "El cliente Cliente ha pagado el combo Suscripción Enterprise. Confirma la instalación para crear el proyecto.",
+      "paymentId": "1764628919859",
+      "status": "unread",
+      "date": "2025-12-01T23:02:24.341Z"
+    },
+    {
+      "id": "6a02",
+      "userId": "1761604976429",
+      "message": "Tu pago del combo Suscripción Enterprise fue registrado. Espera confirmación del proveedor.",
+      "createdAt": "2025-12-01T23:02:24.349Z",
+      "status": "unread"
+    },
+    {
+      "id": "07cb",
+      "providerId": null,
+      "title": "Confirmar instalación",
+      "message": "El cliente Cliente ha pagado el combo Suscripción Premium. Confirma la instalación para crear el proyecto.",
+      "paymentId": "1764628911249",
+      "status": "unread",
+      "date": "2025-12-01T23:02:29.145Z"
+    },
+    {
+      "id": "730d",
+      "userId": "1761604976429",
+      "message": "Tu pago del combo Suscripción Premium fue registrado. Espera confirmación del proveedor.",
+      "createdAt": "2025-12-01T23:02:29.152Z",
+      "status": "unread"
+    },
+    {
+      "id": "8361",
+      "providerId": null,
+      "title": "Confirmar instalación",
+      "message": "El cliente Cliente ha pagado el combo Suscripción Enterprise. Confirma la instalación para crear el proyecto.",
+      "paymentId": "1764655693043",
+      "status": "unread",
+      "date": "2025-12-02T06:08:33.354Z"
+    },
+    {
+      "id": "bf17",
+      "userId": "1761604976429",
+      "message": "Tu pago del combo Suscripción Enterprise fue registrado. Espera confirmación del proveedor.",
+      "createdAt": "2025-12-02T06:08:33.361Z",
+      "status": "unread"
+    },
+    {
+      "id": "0d23",
+      "providerId": "1",
+      "title": "Confirmar instalación",
+      "message": "El cliente Humbertoo ha pagado el combo Testeo3Sean. Confirma la instalación para crear el proyecto.",
+      "paymentId": "1764655750796",
+      "status": "unread",
+      "date": "2025-12-02T06:09:22.812Z"
+    },
+    {
+      "id": "25e4",
+      "userId": "1761604976429",
+      "message": "Tu pago del combo Testeo3Sean fue registrado. Espera confirmación del proveedor.",
+      "createdAt": "2025-12-02T06:09:22.820Z",
+      "status": "unread"
+    },
+    {
+      "id": "621b",
+      "userId": "1761604976429",
+      "projectId": "1764655795309",
+      "message": "Tu proyecto en Testeo3Sean ha sido confirmado por el proveedor.",
+      "createdAt": "2025-12-02T06:09:55.341Z",
+      "status": "unread"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1764625656387",
+      "propertyId": "1764625603675",
+      "userId": "1761604976429",
+      "name": "Proyecto TesteodePrubeas",
+      "description": "Instalación del combo 7",
+      "status": "active",
+      "startDate": "2025-12-01T21:47:36.387Z",
+      "createdAt": "2025-12-01T21:47:36.387Z"
+    },
+    {
+      "id": "1764627448028",
+      "propertyId": "1764625603675",
+      "userId": "1761604976429",
+      "name": "Proyecto TesteodePrubeas",
+      "description": "Instalación del combo 1",
+      "status": "active",
+      "startDate": "2025-12-01T22:17:28.028Z",
+      "createdAt": "2025-12-01T22:17:28.028Z"
+    },
+    {
+      "id": "1764655795309",
+      "propertyId": "1764655720325",
+      "userId": "1761604976429",
+      "name": "Proyecto Testeo3Sean",
+      "description": "Instalación del combo 2",
+      "status": "active",
+      "startDate": "2025-12-02T06:09:55.309Z",
+      "createdAt": "2025-12-02T06:09:55.309Z"
+    }
+  ],
+  "readings": [
+    {
+      "id": "1",
+      "iotDeviceId": 1,
+      "projectId": 1,
+      "metricName": "Temperature",
+      "value": 32.5,
+      "unit": "C",
+      "timestamp": "2025-11-29T18:00:00Z"
+    },
+    {
+      "id": "2",
+      "iotDeviceId": 2,
+      "projectId": 1,
+      "metricName": "Lock Status",
+      "value": 1,
+      "unit": "boolean",
+      "timestamp": "2025-11-29T18:05:00Z"
+    }
+  ],
+  "workitems": [
+    {
+      "id": "1",
+      "projectId": 1,
+      "incidentId": 1,
+      "assignedToUserId": 2,
+      "description": "Revisar sensor de humo en cocina",
+      "status": "pending",
+      "createdAt": "2025-11-20T10:10:00Z",
+      "completedAt": null
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "incidentId": 2,
+      "assignedToUserId": 3,
+      "description": "Verificar cerradura principal",
+      "status": "completed",
+      "createdAt": "2025-11-21T14:40:00Z",
+      "completedAt": "2025-11-21T16:00:00Z"
+    }
+  ]
+}
